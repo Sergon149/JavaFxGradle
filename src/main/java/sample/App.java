@@ -15,6 +15,7 @@ public class App extends Application {
             BorderPane root = FXMLLoader.load(getClass().getResource("/Ventana1.fxml"));
             Scene scene = new Scene(root,400,400);
             primaryStage.setScene(scene);
+            primaryStage.setTitle("Hola");
             primaryStage.show();
         } catch(Exception e) {
             e.printStackTrace();

@@ -6,7 +6,7 @@
 
 <BorderPane xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Ventana1Controller">
 	<center>
-		<Button fx:id="b1" mnemonicParsing="false" onAction="#onButtonAbrirClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExit" text="Bóton" textFill="#ff0101" BorderPane.alignment="CENTER" />
+		<Button fx:id="b1" mnemonicParsing="false" onAction="#onButtonAbrirClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExit" text="Botón" textFill="#ff0101" BorderPane.alignment="CENTER" />
 	</center>
 	<opaqueInsets>
 		<Insets />
@@ -14,4 +14,10 @@
 	<padding>
 		<Insets bottom="100.0" left="100.0" right="100.0" top="100.0" />
 	</padding>
+   <bottom>
+      <Label fx:id="lTexto" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <TextArea fx:id="tArea" prefHeight="0.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </top>
 </BorderPane>
